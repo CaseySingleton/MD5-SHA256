@@ -6,7 +6,7 @@
 #    By: csinglet <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/01/22 18:59:57 by csinglet          #+#    #+#              #
-#    Updated: 2019/06/26 00:00:55 by csinglet         ###   ########.fr        #
+#    Updated: 2019/02/08 14:35:41 by csinglet         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC			= gcc
 CFLAGS		= -Wall -Werror -Wextra -O3
 FLAGS		= $(CFLAGS)
 
-FILES		= main.c
+FILES		= main.c md5.c md5_support.c sha256.c sha256_support.c printing.c utils.c tokens.c
 
 ALL_FILES	= $(FILES)
 
